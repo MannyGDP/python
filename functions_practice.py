@@ -14,6 +14,7 @@ def eat_lunch(food_list):
         for i in range(1, len(food_list)):
             print("Next I eat " + food_list[i])
 
+hello()
 # Testing the pack() function
 packed_items = pack("sandwich", "chips", "apple")
 print("Packed items:", packed_items)
